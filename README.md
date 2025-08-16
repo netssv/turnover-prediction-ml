@@ -1,75 +1,91 @@
-# 📊 Análisis de Predicción de Turnover de Empleados
+# 📊 Employee Turnover Prediction Analysis
 
-## 🎯 Descripción del Proyecto
-Proyecto de Machine Learning para predecir el turnover de empleados utilizando técnicas de análisis de datos y modelos predictivos.
+## 🎯 Project Description
+Machine Learning project to predict employee turnover using data analysis techniques and predictive models. This project follows Kaggle-style best practices for a complete ML workflow.
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 ```
-├── turnover_ml_kaggle_style_mod.ipynb    # Notebook principal con análisis completo
-├── turnover.csv                          # Dataset de empleados
-├── INFORME_TURNOVER_ANALYSIS.md         # Informe técnico detallado
-└── README.md                            # Este archivo
+├── employee_turnover_prediction_english.ipynb    # Main notebook with complete analysis
+├── turnover.csv                                  # Employee dataset
+└── README.md                                     # This file
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 - **Python 3.x**
-- **Pandas** - Manipulación de datos
-- **Scikit-learn** - Modelos de Machine Learning
-- **Matplotlib/Seaborn** - Visualizaciones
-- **Jupyter Notebook** - Desarrollo interactivo
+- **Pandas** - Data manipulation and analysis
+- **Scikit-learn** - Machine Learning models
+- **Matplotlib/Seaborn** - Data visualizations
+- **NumPy** - Numerical computing
+- **Jupyter Notebook** - Interactive development
 
-## 🚀 Cómo Ejecutar
-1. Clona el repositorio:
+## 🚀 How to Run
+1. Clone the repository:
    ```bash
-   git clone https://github.com/TU_USUARIO/turnover-prediction.git
+   git clone https://github.com/netssv/turnover-prediction-ml.git
+   cd turnover-prediction-ml
    ```
-2. Instala las dependencias:
+2. Install dependencies:
    ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn
    ```
-3. Abre el notebook:
+3. Open the notebook:
    ```bash
-   jupyter notebook turnover_ml_kaggle_style_mod.ipynb
+   jupyter notebook employee_turnover_prediction_english.ipynb
    ```
+4. Run all cells to reproduce the analysis
 
-## 📈 Resultados Principales
-- **Modelo ganador**: Random Forest
+## 📈 Key Results
+- **Winner Model**: Random Forest Classifier
 - **Accuracy**: 70.8%
 - **F1-Score**: 0.723
-- **Variables más importantes**: Antigüedad, Edad, Industria
+- **Precision**: 0.750
+- **Recall**: 0.698
+- **Most Important Features**: Tenure (stag), Age, Industry, Independence, Self-control
 
-## 📋 Metodología (7 Pasos)
-1. **Definición del problema** - Variable objetivo y pregunta de investigación
-2. **Carga de datos** - Exploración inicial del dataset
-3. **EDA** - Análisis exploratorio completo
-4. **Limpieza** - Preprocesamiento y codificación
-5. **División** - Train/test split estratificado
-6. **Modelo base** - Random Forest como baseline
-7. **Comparación** - Evaluación vs Logistic Regression
+## 📋 Methodology (7-Step ML Workflow)
+1. **Problem Definition** - Target variable and research question
+2. **Data Loading** - Initial dataset exploration
+3. **EDA** - Comprehensive exploratory data analysis
+4. **Data Preparation** - Preprocessing and feature engineering
+5. **Data Splitting** - Stratified train/test split (80/20)
+6. **Base Model** - Random Forest as baseline
+7. **Model Comparison** - Performance evaluation vs Logistic Regression
 
-## 👥 Autor
-- **Nombre**:Roddrigo Martel
-- **Curso**: Kodigo - Python Módulo 2
-- **Proyecto**: Predicción de Turnover
+## 🎯 Practical Applications
+- **HR Analytics**: Identify employees at risk of leaving
+- **Retention Strategies**: Focus on key factors that drive turnover
+- **Predictive Insights**: Proactive workforce management
+- **Cost Reduction**: Minimize recruitment and training costs
 
-## 📄 Licencia
-Este proyecto es de uso educativo - Kodigo 2025
+## 📊 Dataset Information
+- **Size**: 1,129 employees
+- **Features**: 16 characteristics (personal and work-related)
+- **Target**: Binary classification (0 = stays, 1 = leaves)
+- **Balance**: Well-balanced dataset (50.6% turnover rate)
 
-## New Addition: English Version
+## 🔍 Key Features Analyzed
+- **Demographics**: Age, Gender
+- **Work Experience**: Tenure (stag), Industry, Profession
+- **Psychological Traits**: Anxiety, Extraversion, Independence, Self-control, Innovation
+- **Work Environment**: Traffic, Coach, Head Gender, Way of working
 
-📄 **employee_turnover_prediction_english.ipynb** - Complete English translation of the turnover prediction analysis
+## 💡 Practical Examples Included
+- **Individual Predictions**: Examples like "John Smith" employee profile
+- **Risk Assessment**: High/Medium/Low risk categorization
+- **Feature Importance**: Understanding what drives turnover decisions
+- **Probability Scores**: Confidence levels for each prediction
 
-### Key Features:
-- **7-step ML workflow**: Problem definition → EDA → Preprocessing → Modeling → Evaluation
-- **Two models compared**: Random Forest vs Logistic Regression  
-- **Practical examples**: Predict turnover for new employees (like John Smith)
-- **Feature importance analysis**: Understand which factors drive turnover
-- **Ready to run**: Just upload turnover.csv and execute all cells
+## 👥 Author
+- **Name**: Rodrigo Martel
+- **Course**: Kodigo - Python Module 2
+- **Project**: Employee Turnover Prediction
 
-### Quick Results:
-- **Best Model**: Random Forest (70.8% accuracy, F1-Score: 0.723)
-- **Key Predictors**: Tenure (stag), Age, Industry, Independence, Self-control
-- **Dataset**: 1,129 employees, 16 features, balanced classes (50.6% turnover)
+## 📄 License
+This project is for educational use - Kodigo 2025
 
-Perfect for learning ML fundamentals and employee retention analysis! 🎯
+## 🌟 Perfect for Learning
+- 🎓 **ML Fundamentals**: Complete workflow from data to model
+- 💼 **HR Analytics**: Real-world employee retention problem
+- 📊 **Data Science**: Best practices and reproducible analysis
+- 🔬 **Predictive Modeling**: Practical machine learning application
 
