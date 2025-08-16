@@ -54,3 +54,22 @@ Proyecto de Machine Learning para predecir el turnover de empleados utilizando t
 
 ## 📄 Licencia
 Este proyecto es de uso educativo - Kodigo 2025
+
+## New Addition: English Version
+
+📄 **employee_turnover_prediction_english.ipynb** - Complete English translation of the turnover prediction analysis
+
+### Key Features:
+- **7-step ML workflow**: Problem definition → EDA → Preprocessing → Modeling → Evaluation
+- **Two models compared**: Random Forest vs Logistic Regression  
+- **Practical examples**: Predict turnover for new employees (like John Smith)
+- **Feature importance analysis**: Understand which factors drive turnover
+- **Ready to run**: Just upload turnover.csv and execute all cells
+
+### Quick Results:
+- **Best Model**: Random Forest (70.8% accuracy, F1-Score: 0.723)
+- **Key Predictors**: Tenure (stag), Age, Industry, Independence, Self-control
+- **Dataset**: 1,129 employees, 16 features, balanced classes (50.6% turnover)
+
+Perfect for learning ML fundamentals and employee retention analysis! 🎯
+
